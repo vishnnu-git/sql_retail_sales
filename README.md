@@ -1,7 +1,7 @@
 # sql_retail_sales
 **SQL Retail Sales Analysis -P1**
 '''sql
-CREATE DATABASE sql_project_p1'''
+CREATE DATABASE sql_project_p1
 
 CREATE TABLE retail_sales
 	(
