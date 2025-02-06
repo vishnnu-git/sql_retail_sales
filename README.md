@@ -1,11 +1,11 @@
 # sql_retail_sales
---SQL Retail Sales Analysis -P1
-CREATE DATABASE sql_project_p1
+**SQL Retail Sales Analysis -P1**
+'''sql
+CREATE DATABASE sql_project_p1'''
 
---CREATE TABLE
 CREATE TABLE retail_sales
-		(
-		transactions_id INT PRIMARY KEY,
+	(
+	transactions_id INT PRIMARY KEY,
     	sale_date DATE,	
     	sale_time TIME,
     	customer_id INT,	
@@ -16,7 +16,8 @@ CREATE TABLE retail_sales
     	price_per_unit FLOAT,	
     	cogs FLOAT,
     	total_sale FLOAT
-		)
+	);
+  '''
 --AlTER Table
 ALTER TABLE retail_sales RENAME COLUMN quantiy TO quantity;
 
